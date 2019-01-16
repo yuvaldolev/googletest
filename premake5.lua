@@ -56,5 +56,8 @@ project "GoogleTestMain"
         cppdialect "C++17"
         staticruntime "On"
 
+    filter { "system:windows", "configurations:Debug" }
+        buildoptions "/MTd"
+
     filter { "system:windows", "configurations:Release" }
         buildoptions "/MT"

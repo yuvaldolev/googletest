@@ -42,7 +42,7 @@ project "GoogleTestMain"
     files
     {
         "googletest/include/gtest/gtest.h"
-        "googletest/src/src/gtest_main.cc",
+        "googletest/src/gtest_main.cc",
     }
 
     includedirs

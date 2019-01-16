@@ -7,7 +7,7 @@ project "GoogleTest"
 
     files
     {
-        "googletest/include/gtest/gtest.h"
+        "googletest/include/gtest/gtest.h",
         "googletest/src/gtest.cc",
         "googletest/src/gtest-death-test.cc",
         "googletest/src/gtest-filepath.cc",
@@ -20,7 +20,7 @@ project "GoogleTest"
 
     includedirs
     {
-        "googletest"
+        "googletest",
         "googletest/include"
     }
 
@@ -41,13 +41,13 @@ project "GoogleTestMain"
 
     files
     {
-        "googletest/include/gtest/gtest.h"
-        "googletest/src/gtest_main.cc",
+        "googletest/include/gtest/gtest.h",
+        "googletest/src/gtest_main.cc"
     }
 
     includedirs
     {
-        "googletest"
+        "googletest",
         "googletest/include"
     }
 
